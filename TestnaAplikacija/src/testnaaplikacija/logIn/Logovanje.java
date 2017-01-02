@@ -3,8 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+//jos komenatara
 package testnaaplikacija.logIn;
+
 // neka izmjena 123
+
+//test
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
