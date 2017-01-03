@@ -120,7 +120,7 @@ public class MeniForm extends javax.swing.JFrame {
             }
         });
     }
-
+//comment
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
