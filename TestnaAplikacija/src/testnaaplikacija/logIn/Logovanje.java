@@ -52,7 +52,6 @@ public class Logovanje extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Prijava na sistem");
-        setPreferredSize(new java.awt.Dimension(800, 600));
 
         jPanel1.setLayout(null);
 
@@ -120,7 +119,7 @@ public class Logovanje extends javax.swing.JFrame {
         jLabel5.setBounds(100, 340, 400, 30);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\PC\\Desktop\\login image1.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\PC\\Desktop\\New folder (2)\\Proba\\TestnaAplikacija\\src\\testnaaplikacija\\logIn\\login image1.jpg")); // NOI18N
         jPanel1.add(jLabel3);
         jLabel3.setBounds(0, 0, 800, 600);
 
