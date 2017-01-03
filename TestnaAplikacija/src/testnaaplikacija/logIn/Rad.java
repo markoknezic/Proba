@@ -5,26 +5,19 @@
  */
 package testnaaplikacija.logIn;
 
-import javax.swing.JMenuItem;
-
 /**
  *
- * @author PC
+ * @author Knezic
  */
-public class MeniForm extends javax.swing.JFrame {
-    
+public class Rad extends javax.swing.JFrame {
+
     /**
-     * Creates new form MeniForm
+     * Creates new form Rad
      */
-    public MeniForm() {
+    public Rad() {
         initComponents();
     }
 
-    public MeniForm(Logovanje l) {
-    this.l=l;
-    initComponents();
-    }
-    private Logovanje l;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -35,38 +28,54 @@ public class MeniForm extends javax.swing.JFrame {
     private void initComponents() {
 
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu2 = new javax.swing.JMenu();
+        jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenuItem10 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Ulazak na Auotoput");
 
-        jMenu2.setText("Izaberite opciju");
+        jMenu1.setText(" Izaberite ulazni cvor na kojem se nalazite");
+        jMenu1.setToolTipText("");
 
-        jMenuItem1.setText("Rad");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
-            }
-        });
-        jMenu2.add(jMenuItem1);
+        jMenuItem1.setText("Smederevo");
+        jMenu1.add(jMenuItem1);
 
-        jMenuItem2.setText("Pomoc");
-        jMenu2.add(jMenuItem2);
+        jMenuItem2.setText("Pozarevac");
+        jMenu1.add(jMenuItem2);
 
-        jMenuItem3.setText("Odjava");
-        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem3ActionPerformed(evt);
-            }
-        });
-        jMenu2.add(jMenuItem3);
+        jMenuItem3.setText("Markovac");
+        jMenu1.add(jMenuItem3);
 
-        jMenuBar1.add(jMenu2);
-        jMenu2.getAccessibleContext().setAccessibleName("IzaberiteOpciju");
-        jMenu2.getAccessibleContext().setAccessibleDescription("");
+        jMenuItem4.setText("Lapovo");
+        jMenu1.add(jMenuItem4);
+
+        jMenuItem5.setText("Batocina ");
+        jMenu1.add(jMenuItem5);
+
+        jMenuItem6.setText("Jagodina");
+        jMenu1.add(jMenuItem6);
+
+        jMenuItem7.setText("Paracin");
+        jMenu1.add(jMenuItem7);
+
+        jMenuItem8.setText("Razanj");
+        jMenu1.add(jMenuItem8);
+
+        jMenuItem9.setText("Aleksinac");
+        jMenu1.add(jMenuItem9);
+
+        jMenuItem10.setText("Nis");
+        jMenu1.add(jMenuItem10);
+
+        jMenuBar1.add(jMenu1);
 
         setJMenuBar(jMenuBar1);
 
@@ -74,7 +83,7 @@ public class MeniForm extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 609, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -84,17 +93,6 @@ public class MeniForm extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        this.setVisible(false);
-        l.setVisibleLabel3(false);
-        l.setVisible(true);
-    }//GEN-LAST:event_jMenuItem3ActionPerformed
-
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // TODO add your handling code here:
-        new Rad().setVisible(true);       
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
-    
     /**
      * @param args the command line arguments
      */
@@ -104,9 +102,6 @@ public class MeniForm extends javax.swing.JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-        /*if(jMenuItem2.getText().equals() == "{
-            
-        }*/
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -115,29 +110,36 @@ public class MeniForm extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MeniForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Rad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MeniForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Rad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MeniForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Rad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MeniForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Rad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-       
+
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MeniForm().setVisible(true);
+                new Rad().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }
