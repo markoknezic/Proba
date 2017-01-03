@@ -86,7 +86,7 @@ public class MeniForm extends javax.swing.JFrame {
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         this.setVisible(false);
-        l.setVisibleLabel3(false);
+        l.setVisibleLabel5(false);
         l.setVisible(true);
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
