@@ -96,7 +96,7 @@ public class Logovanje extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jPasswordField1);
-        jPasswordField1.setBounds(100, 270, 603, 53);
+        jPasswordField1.setBounds(100, 270, 603, 56);
         jPasswordField1.getAccessibleContext().setAccessibleName("");
 
         jButton1.setBackground(new java.awt.Color(0, 102, 102));
