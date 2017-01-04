@@ -19,7 +19,7 @@ public class IzdajPotvrdu extends javax.swing.JFrame {
     public IzdajPotvrdu() {
         initComponents();
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -41,6 +41,7 @@ public class IzdajPotvrdu extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
+        jTextField1.setEditable(false);
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -49,6 +50,7 @@ public class IzdajPotvrdu extends javax.swing.JFrame {
         jPanel1.add(jTextField1);
         jTextField1.setBounds(80, 110, 150, 20);
 
+        jTextField2.setEditable(false);
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);

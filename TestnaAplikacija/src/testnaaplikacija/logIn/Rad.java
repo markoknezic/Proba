@@ -45,6 +45,7 @@ public class Rad extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(800, 600));
 
         jPanel2.setLayout(null);
 
@@ -105,6 +106,9 @@ public class Rad extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Knezic\\Desktop\\without_Shark_1.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
+        jLabel1.setMaximumSize(new java.awt.Dimension(800, 600));
+        jLabel1.setMinimumSize(new java.awt.Dimension(800, 600));
+        jLabel1.setPreferredSize(new java.awt.Dimension(800, 600));
         jPanel2.add(jLabel1);
         jLabel1.setBounds(0, 0, 800, 600);
 
